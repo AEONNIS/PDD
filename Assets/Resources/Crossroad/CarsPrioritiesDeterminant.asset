@@ -1,0 +1,447 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85c5009b77b109640b621b30390c9dd8, type: 3}
+  m_Name: CarsPrioritiesDeterminant
+  m_EditorClassIdentifier: 
+  _templateCrossings:
+  - _aPath:
+      _side: 0
+      _direction: 0
+      _trajectoryPoints: []
+    _bPath:
+      _side: 1
+      _direction: 0
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 3
+  - _aPath:
+      _side: 0
+      _direction: 0
+      _trajectoryPoints: []
+    _bPath:
+      _side: 1
+      _direction: 1
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 3
+  - _aPath:
+      _side: 0
+      _direction: 0
+      _trajectoryPoints: []
+    _bPath:
+      _side: 1
+      _direction: 2
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 3
+  - _aPath:
+      _side: 0
+      _direction: 0
+      _trajectoryPoints: []
+    _bPath:
+      _side: 1
+      _direction: 3
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 3
+  - _aPath:
+      _side: 0
+      _direction: 1
+      _trajectoryPoints: []
+    _bPath:
+      _side: 1
+      _direction: 0
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 3
+  - _aPath:
+      _side: 0
+      _direction: 1
+      _trajectoryPoints: []
+    _bPath:
+      _side: 1
+      _direction: 1
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 3
+  - _aPath:
+      _side: 0
+      _direction: 1
+      _trajectoryPoints: []
+    _bPath:
+      _side: 1
+      _direction: 2
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 3
+  - _aPath:
+      _side: 0
+      _direction: 1
+      _trajectoryPoints: []
+    _bPath:
+      _side: 1
+      _direction: 3
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 3
+  - _aPath:
+      _side: 0
+      _direction: 2
+      _trajectoryPoints: []
+    _bPath:
+      _side: 1
+      _direction: 0
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 3
+  - _aPath:
+      _side: 0
+      _direction: 2
+      _trajectoryPoints: []
+    _bPath:
+      _side: 1
+      _direction: 1
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 3
+  - _aPath:
+      _side: 0
+      _direction: 2
+      _trajectoryPoints: []
+    _bPath:
+      _side: 1
+      _direction: 2
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 3
+  - _aPath:
+      _side: 0
+      _direction: 2
+      _trajectoryPoints: []
+    _bPath:
+      _side: 1
+      _direction: 3
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 3
+  - _aPath:
+      _side: 0
+      _direction: 3
+      _trajectoryPoints: []
+    _bPath:
+      _side: 1
+      _direction: 0
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 2
+  - _aPath:
+      _side: 0
+      _direction: 3
+      _trajectoryPoints: []
+    _bPath:
+      _side: 1
+      _direction: 1
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 0
+  - _aPath:
+      _side: 0
+      _direction: 3
+      _trajectoryPoints: []
+    _bPath:
+      _side: 1
+      _direction: 2
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 0
+  - _aPath:
+      _side: 0
+      _direction: 3
+      _trajectoryPoints: []
+    _bPath:
+      _side: 1
+      _direction: 3
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 0
+  - _aPath:
+      _side: 0
+      _direction: 0
+      _trajectoryPoints: []
+    _bPath:
+      _side: 2
+      _direction: 0
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 1
+  - _aPath:
+      _side: 0
+      _direction: 0
+      _trajectoryPoints: []
+    _bPath:
+      _side: 2
+      _direction: 1
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 1
+  - _aPath:
+      _side: 0
+      _direction: 0
+      _trajectoryPoints: []
+    _bPath:
+      _side: 2
+      _direction: 2
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 3
+  - _aPath:
+      _side: 0
+      _direction: 0
+      _trajectoryPoints: []
+    _bPath:
+      _side: 2
+      _direction: 3
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 3
+  - _aPath:
+      _side: 0
+      _direction: 1
+      _trajectoryPoints: []
+    _bPath:
+      _side: 2
+      _direction: 0
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 1
+  - _aPath:
+      _side: 0
+      _direction: 1
+      _trajectoryPoints: []
+    _bPath:
+      _side: 2
+      _direction: 1
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 1
+  - _aPath:
+      _side: 0
+      _direction: 1
+      _trajectoryPoints: []
+    _bPath:
+      _side: 2
+      _direction: 2
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 3
+  - _aPath:
+      _side: 0
+      _direction: 1
+      _trajectoryPoints: []
+    _bPath:
+      _side: 2
+      _direction: 3
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 3
+  - _aPath:
+      _side: 0
+      _direction: 2
+      _trajectoryPoints: []
+    _bPath:
+      _side: 2
+      _direction: 0
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 2
+  - _aPath:
+      _side: 0
+      _direction: 2
+      _trajectoryPoints: []
+    _bPath:
+      _side: 2
+      _direction: 1
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 2
+  - _aPath:
+      _side: 0
+      _direction: 2
+      _trajectoryPoints: []
+    _bPath:
+      _side: 2
+      _direction: 2
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 0
+  - _aPath:
+      _side: 0
+      _direction: 2
+      _trajectoryPoints: []
+    _bPath:
+      _side: 2
+      _direction: 3
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 0
+  - _aPath:
+      _side: 0
+      _direction: 3
+      _trajectoryPoints: []
+    _bPath:
+      _side: 2
+      _direction: 0
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 2
+  - _aPath:
+      _side: 0
+      _direction: 3
+      _trajectoryPoints: []
+    _bPath:
+      _side: 2
+      _direction: 1
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 2
+  - _aPath:
+      _side: 0
+      _direction: 3
+      _trajectoryPoints: []
+    _bPath:
+      _side: 2
+      _direction: 2
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 0
+  - _aPath:
+      _side: 0
+      _direction: 3
+      _trajectoryPoints: []
+    _bPath:
+      _side: 2
+      _direction: 3
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 0
+  - _aPath:
+      _side: 0
+      _direction: 0
+      _trajectoryPoints: []
+    _bPath:
+      _side: 3
+      _direction: 0
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 2
+  - _aPath:
+      _side: 0
+      _direction: 0
+      _trajectoryPoints: []
+    _bPath:
+      _side: 3
+      _direction: 1
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 2
+  - _aPath:
+      _side: 0
+      _direction: 0
+      _trajectoryPoints: []
+    _bPath:
+      _side: 3
+      _direction: 2
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 2
+  - _aPath:
+      _side: 0
+      _direction: 0
+      _trajectoryPoints: []
+    _bPath:
+      _side: 3
+      _direction: 3
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 3
+  - _aPath:
+      _side: 0
+      _direction: 1
+      _trajectoryPoints: []
+    _bPath:
+      _side: 3
+      _direction: 0
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 2
+  - _aPath:
+      _side: 0
+      _direction: 1
+      _trajectoryPoints: []
+    _bPath:
+      _side: 3
+      _direction: 1
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 2
+  - _aPath:
+      _side: 0
+      _direction: 1
+      _trajectoryPoints: []
+    _bPath:
+      _side: 3
+      _direction: 2
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 2
+  - _aPath:
+      _side: 0
+      _direction: 1
+      _trajectoryPoints: []
+    _bPath:
+      _side: 3
+      _direction: 3
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 0
+  - _aPath:
+      _side: 0
+      _direction: 2
+      _trajectoryPoints: []
+    _bPath:
+      _side: 3
+      _direction: 0
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 2
+  - _aPath:
+      _side: 0
+      _direction: 2
+      _trajectoryPoints: []
+    _bPath:
+      _side: 3
+      _direction: 1
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 2
+  - _aPath:
+      _side: 0
+      _direction: 2
+      _trajectoryPoints: []
+    _bPath:
+      _side: 3
+      _direction: 2
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 2
+  - _aPath:
+      _side: 0
+      _direction: 2
+      _trajectoryPoints: []
+    _bPath:
+      _side: 3
+      _direction: 3
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 0
+  - _aPath:
+      _side: 0
+      _direction: 3
+      _trajectoryPoints: []
+    _bPath:
+      _side: 3
+      _direction: 0
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 2
+  - _aPath:
+      _side: 0
+      _direction: 3
+      _trajectoryPoints: []
+    _bPath:
+      _side: 3
+      _direction: 1
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 2
+  - _aPath:
+      _side: 0
+      _direction: 3
+      _trajectoryPoints: []
+    _bPath:
+      _side: 3
+      _direction: 2
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 2
+  - _aPath:
+      _side: 0
+      _direction: 3
+      _trajectoryPoints: []
+    _bPath:
+      _side: 3
+      _direction: 3
+      _trajectoryPoints: []
+    _aHindranceAtCrossing: 0
